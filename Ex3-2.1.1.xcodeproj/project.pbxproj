@@ -21,6 +21,8 @@
 		00FD45E6188CBCB4007E95CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FD45C8188CBCB3007E95CE /* UIKit.framework */; };
 		00FD45EE188CBCB4007E95CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00FD45EC188CBCB4007E95CE /* InfoPlist.strings */; };
 		00FD45F0188CBCB4007E95CE /* Ex3_2_1_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FD45EF188CBCB4007E95CE /* Ex3_2_1_1Tests.m */; };
+		00FD45FA188CBEC3007E95CE /* girl6.png in Resources */ = {isa = PBXBuildFile; fileRef = 00FD45F9188CBEC3007E95CE /* girl6.png */; };
+		00FD45FC188CC024007E95CE /* music1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00FD45FB188CC024007E95CE /* music1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		00FD45EB188CBCB4007E95CE /* Ex3-2.1.1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ex3-2.1.1Tests-Info.plist"; sourceTree = "<group>"; };
 		00FD45ED188CBCB4007E95CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00FD45EF188CBCB4007E95CE /* Ex3_2_1_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ex3_2_1_1Tests.m; sourceTree = "<group>"; };
+		00FD45F9188CBEC3007E95CE /* girl6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl6.png; sourceTree = "<group>"; };
+		00FD45FB188CC024007E95CE /* music1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 		00FD45CA188CBCB3007E95CE /* Ex3-2.1.1 */ = {
 			isa = PBXGroup;
 			children = (
+				00FD45FB188CC024007E95CE /* music1.mp3 */,
+				00FD45F9188CBEC3007E95CE /* girl6.png */,
 				00FD45D3188CBCB3007E95CE /* AppDelegate.h */,
 				00FD45D4188CBCB3007E95CE /* AppDelegate.m */,
 				00FD45D6188CBCB3007E95CE /* Main.storyboard */,
@@ -228,8 +234,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00FD45FA188CBEC3007E95CE /* girl6.png in Resources */,
 				00FD45DD188CBCB3007E95CE /* Images.xcassets in Resources */,
 				00FD45CF188CBCB3007E95CE /* InfoPlist.strings in Resources */,
+				00FD45FC188CC024007E95CE /* music1.mp3 in Resources */,
 				00FD45D8188CBCB3007E95CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
